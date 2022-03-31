@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Size-->
+    <dimen name="image_logo">323dp</dimen>
+    <!--Home Page icon-->
+    <dimen name="image_home_height">250dp</dimen>
+</resources>

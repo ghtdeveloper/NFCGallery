@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) App desarrollada para el monografico #42 de la Universidad Autonoma De Santo Domingo
+  ~   ~ Todos los derechos reservados se restrigen el uso de esta App sin el consentimiento de los desarrolladores o de las partes interesadas
+  ~   ~ Santo Domingo, Republica Dominicana 2020-20201
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:shape="rectangle">
+    <solid
+        android:color="@color/primary"/>
+
+<corners
+    android:radius="20dp"/>
+</shape>

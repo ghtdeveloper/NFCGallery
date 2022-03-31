@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.login.LoginActivity">
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/rounded_rect_shape_primay_color"
+        android:fontFamily="@font/alatsi"
+        android:isScrollContainer="false"
+        android:text="@string/text_sign_up_google"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        app:icon="@drawable/icon_google_3"
+        app:iconGravity="start"
+        app:iconTint="#FDFCFC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvItsEasierLogin" />
+
+    <ImageView
+        android:id="@+id/imgIconLogin"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/image_logo"
+        android:layout_marginTop="88dp"
+        android:contentDescription="@string/text_imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nfcgallery_logo_main" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/alatsi"
+        android:text="@string/text_sign_up"
+        android:textColor="@color/ic_launcher_updt_background"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgIconLogin" />
+
+    <TextView
+        android:id="@+id/tvItsEasierLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/amaranth"
+        android:text="@string/text_its_easy"
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_updt_background"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignUp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
