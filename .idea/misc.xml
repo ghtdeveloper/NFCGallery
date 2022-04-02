@@ -4,17 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/drawable/rounded_rect_shape_primay_color.xml" value="0.2065" />
-        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-large/activity_home.xml" value="0.375" />
+        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-large/activity_home.xml" value="0.2524271844660194" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-large/activity_login.xml" value="0.375" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-large/activity_splash.xml" value="0.375" />
-        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-normal/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-normal/activity_home.xml" value="0.22807017543859648" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-normal/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-normal/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout-xlarge/activity_splash.xml" value="0.1875" />
-        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout/activity_home.xml" value="0.6" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout/activity_maps.xml" value="0.25" />
         <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/GHTDEVELOPER/Documents/proyect_android/NFCGallery/app/src/main/res/layout/dialogo_progress_bar.xml" value="0.25" />
       </map>
     </option>
   </component>

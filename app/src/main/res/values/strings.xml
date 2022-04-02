@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">NFCGallery</string>
     <string name="text_logo_splash">NFC Gallery</string>
     <!--Content Drawable-->
@@ -9,4 +9,9 @@
     <string name="text_sign_up_google">Sign Up With Google</string>
     <string name="message_reading_nfc">Reading will begin when you tap a NFC compatible
         tag with back of your device</string>
+    <string name="defaut_web_cliente_id" tools:ignore="TypographyDashes">
+        734556105363-6rsf8unkjrjg6rlrvkpuq4tlcoojek6p.apps.googleusercontent.com</string>
+    <!--Dialog-->
+    <string name="textVerificando" tools:ignore="TypographyEllipsis">Verifying User Session ...</string>
+    <string name="textMensajePorgressBar">Please wait</string>
 </resources>

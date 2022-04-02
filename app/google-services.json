@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "734556105363",
+    "project_id": "nfcgallery-1b10c",
+    "storage_bucket": "nfcgallery-1b10c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734556105363:android:fb27739210f309960b3b66",
+        "android_client_info": {
+          "package_name": "es.usj.mastersa.nfcgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734556105363-jb4bcdhf1i1ss1gir7o5uh86milo1gba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.usj.mastersa.nfcgallery",
+            "certificate_hash": "ab00bbeba2667f2ade302b6a535d56f8a91a4554"
+          }
+        },
+        {
+          "client_id": "734556105363-6rsf8unkjrjg6rlrvkpuq4tlcoojek6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKf-zN2yJmqJ-1hNpOPYzs90-Mwz0PNxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734556105363-6rsf8unkjrjg6rlrvkpuq4tlcoojek6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

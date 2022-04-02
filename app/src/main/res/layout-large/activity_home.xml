@@ -6,29 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".view.home.HomeActivity">
 
+    <!--
     <ImageView
         android:id="@+id/imgiconhomeactivity"
         android:layout_width="match_parent"
         android:layout_height="@dimen/image_home_height"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="188dp"
         android:contentDescription="@string/text_imagen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/nfc_home_image" />
+        -->
 
     <TextView
         android:id="@+id/tvMessageReading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="49dp"
         android:fontFamily="@font/acme"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         android:text="@string/message_reading_nfc"
         android:textAlignment="center"
         android:textColor="@color/cardview_dark_background"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgiconhomeactivity" />
+        app:layout_constraintTop_toBottomOf="@+id/imgIconPhone" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nfc_icon_anim_2" />
+
+    <ImageView
+        android:id="@+id/imgIconPhone"
+        android:layout_width="143dp"
+        android:layout_height="171dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/mobile_icon_anim_2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

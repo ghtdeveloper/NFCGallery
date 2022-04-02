@@ -1,5 +1,7 @@
 package es.usj.mastersa.nfcgallery.presenter
 
+import android.view.View
+import com.google.android.material.snackbar.Snackbar
 import es.usj.mastersa.nfcgallery.contract.ContractInterface
 
 
@@ -11,12 +13,20 @@ import es.usj.mastersa.nfcgallery.contract.ContractInterface
 class HomeActivityPresenter(_viewHomeActivity: ContractInterface.ViewHomeActivity):
     ContractInterface.PresenterHomeActivity
 {
-    private var viewHomeActivity: ContractInterface.ViewHomeActivity = _viewHomeActivity
 
+    private var viewHomeActivity: ContractInterface.ViewHomeActivity = _viewHomeActivity
 
     init {
         viewHomeActivity.initView()
     }
 
 
-}//End HomeActivityPresenter
+    override fun showSnackBar(view: View, username: String)
+    {
+        Snackbar.make(view, "Welcome $username",
+            Snackbar.LENGTH_LONG)
+            .setAction("Action", null).show()
+    }
+
+
+}

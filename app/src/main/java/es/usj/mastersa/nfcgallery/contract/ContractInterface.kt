@@ -2,6 +2,9 @@ package es.usj.mastersa.nfcgallery.contract
 
 import android.app.Activity
 import android.content.Context
+import android.view.View
+import com.google.firebase.auth.FirebaseUser
+import es.usj.mastersa.nfcgallery.domain.User
 
 
 /**
@@ -20,11 +23,17 @@ interface ContractInterface
     interface ViewLoginActivity
     {
         fun initView()
+        fun signInGoogle()
+        fun firebaseAuthWithGoogle(idToken:String)
+        fun updateUI(user:FirebaseUser)
+        fun showDialogProgress()
     }
 
     interface ViewHomeActivity
     {
         fun initView()
+        fun displayWelcomeSnack()
+        fun displayAnimation()
     }
 
 
@@ -43,7 +52,12 @@ interface ContractInterface
 
     interface PresenterHomeActivity
     {
-        //Do Something
+        fun showSnackBar(view: View,username:String)
+    }
+
+    interface IFirebasePresenter
+    {
+        fun addUser(user:User,uuid:String)
     }
 
 
