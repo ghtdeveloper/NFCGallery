@@ -20,4 +20,35 @@ class DateNow
         return Calendar.getInstance().time
     }
 
+    fun getCurrentMonth(): Int {
+        val calendar = Calendar.getInstance()
+        return calendar.get(Calendar.MONTH)+1
+    }
+
+    fun getCurrentYear(): Int {
+        val calendar = Calendar.getInstance()
+        return calendar.get(Calendar.YEAR)
+    }
+
+
+    fun getCurrentDay(): Int {
+        val calendar = Calendar.getInstance()
+        return calendar.get(Calendar.DAY_OF_MONTH)
+    }
+
+    fun getCurrentHour(): Int {
+        val calendar = Calendar.getInstance()
+        return calendar.get(Calendar.HOUR_OF_DAY)
+    }
+
+    fun getCurrentMinute(): Int {
+        val calendar = Calendar.getInstance()
+        return calendar.get(Calendar.MINUTE)
+    }
+
+    fun getCurrentSecond(): Int {
+        val calendar = Calendar.getInstance()
+        return calendar.get(Calendar.SECOND)
+    }
+
 }

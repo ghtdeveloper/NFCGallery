@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="es.usj.mastersa.nfcgallery">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -11,18 +24,19 @@
         android:roundIcon="@mipmap/ic_launcher_updt_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NFCGallery">
-
-
-
         <activity
-            android:name=".view.home.HomeActivity"
+            android:name="es.usj.mastersa.nfcgallery.view.imagegallery.GalleryActivity"
             android:exported="false" />
         <activity
-            android:name=".view.login.LoginActivity"
+            android:name="es.usj.mastersa.nfcgallery.view.home.HomeActivity"
+            android:theme="@style/materialDesignbyCustom"
+            android:exported="false"/>
+        <activity
+            android:name="es.usj.mastersa.nfcgallery.view.login.LoginActivity"
             android:exported="false"
             android:theme="@style/materialDesignbyCustom" />
         <activity
-            android:name=".view.splash.SplashActivity"
+            android:name="es.usj.mastersa.nfcgallery.view.splash.SplashActivity"
             android:exported="true"
             android:theme="@style/materialDesignbyCustom">
             <intent-filter>
@@ -30,9 +44,24 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <!--For Write-->
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--<data android:mimeType="text/plain" />-->
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
         </activity>
         <activity
-            android:name=".app.MainActivity"
+            android:name="es.usj.mastersa.nfcgallery.app.MainActivity"
             android:exported="true" />
 
         <meta-data

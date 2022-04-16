@@ -17,11 +17,9 @@ class SplashActivity : AppCompatActivity() , ContractInterface.ViewSplashScreen
 {
     //Objetc Presenter
     private var presenter: SplashAcitivtyPresenter? = null
-   // private lateinit var auth:FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
         //Init Presenter

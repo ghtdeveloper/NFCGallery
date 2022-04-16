@@ -20,4 +20,17 @@
         <item name="titleTextColor">@color/primary_text</item>
     </style>
 
+    <!--Dialogo personalizado (adjuntos)-->
+    <style name="dialogoPersonalizado"  parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--Dialogo personalizado (adjuntos)-->
+    <style name="dialogoPersonalizado2"  parent="android:Theme.DeviceDefault.Dialog.Alert"
+        tools:targetApi="lollipop_mr1">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
 </resources>

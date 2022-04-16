@@ -14,4 +14,23 @@
     <!--Dialog-->
     <string name="textVerificando" tools:ignore="TypographyEllipsis">Verifying User Session ...</string>
     <string name="textMensajePorgressBar">Please wait</string>
+    <!--TextView Test-->
+    <string name="text_view_data">INFO READER FROM NCF TAG:</string>
+    <!--No Data in the TAG-->
+    <string name="text_no_Data">We\'re sorry, but this tag does not have any images stored</string>
+    <string name="text_add_info_to_tag">Do you want to add an image?</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_not">Not</string>
+    <!--Gallery-->
+    <string name="text_add_from">Add from</string>
+    <string name="text_Camera">Camera</string>
+    <string name="text_gallery">Gallery</string>
+    <string name="text_write_tag">Write TAG NFC</string>
+    <!--Dialog Wirte NFC-->
+    <string name="text_title_dialog">Ready to start the tag writing process</string>
+    <string name="text_dialog">Writing will begin when you tap a NFC compatible tag with the back of your device</string>
+    <!--Sign Out-->
+    <string name="text_sign_out">Sign Out</string>
+    <string name="text_title_sign_out">Do you really want to log out of the application?</string>
+
 </resources>
